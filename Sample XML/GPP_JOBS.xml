@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<GPP>
+	<Jobs>	
+	  <Job name="ABCD">
+		<Triggers>
+		  <Trigger>
+			<TriggerName>AABB-776E7AA1-A054-4858-9AE4-0A827DEB4DCD</TriggerName>
+			<PrincipalCode>999</PrincipalCode>
+			<ERP>MKT</ERP>
+			<MessageCode>AABB</MessageCode>
+			<MsgMonday>1</MsgMonday>
+			<MsgTuesday>1</MsgTuesday>
+			<MsgWednesday>1</MsgWednesday>
+			<MsgThursday>1</MsgThursday>
+			<MsgFriday>1</MsgFriday>
+			<MsgSaturday>0</MsgSaturday>
+			<MsgSunday>0</MsgSunday>
+			<MsetRunTime>1</MsetRunTime>
+			<MsetStartTime>1900-01-01T00:00:00</MsetStartTime>
+			<MsetEndTime>1900-01-01T23:59:00</MsetEndTime>
+			<JobCronSchedule>0 0 1 ? * MON,TUE,WED,THU,FRI, *</JobCronSchedule>
+			<RepeatForever>1</RepeatForever>
+			<StartNow>0</StartNow>
+		  </Trigger>      
+		</Triggers>  
+	  </Job> 
+	  <Job name="EFGH">		
+		<Triggers>
+		  <Trigger>
+			<TriggerName>GSK001-28AF63FC-250B-4DA9-BE43-32ABC72E4DAF</TriggerName>
+			<PrincipalCode>16</PrincipalCode>
+			<ERP>MKT</ERP>
+			<MessageCode>GSK001</MessageCode>
+			<MsgMonday>1</MsgMonday>
+			<MsgTuesday>1</MsgTuesday>
+			<MsgWednesday>1</MsgWednesday>
+			<MsgThursday>1</MsgThursday>
+			<MsgFriday>1</MsgFriday>
+			<MsgSaturday>0</MsgSaturday>
+			<MsgSunday>0</MsgSunday>
+			<MsetRunTime>1</MsetRunTime>
+			<MsetStartTime>1900-01-01T00:00:00</MsetStartTime>
+			<MsetEndTime>1900-01-01T23:59:00</MsetEndTime>
+			<JobCronSchedule>0 0 1 ? * MON,TUE,WED,THU,FRI *</JobCronSchedule>
+			<RepeatForever>1</RepeatForever>
+			<StartNow>0</StartNow>
+		  </Trigger>
+		  <Trigger>
+			<TriggerName>GSK002-02596C76-E4B6-4428-92D5-EAACC9F5760D</TriggerName>
+			<PrincipalCode>16</PrincipalCode>
+			<ERP>MKT</ERP>
+			<MessageCode>GSK002</MessageCode>
+			<MsgMonday>1</MsgMonday>
+			<MsgTuesday>1</MsgTuesday>
+			<MsgWednesday>1</MsgWednesday>
+			<MsgThursday>1</MsgThursday>
+			<MsgFriday>1</MsgFriday>
+			<MsgSaturday>0</MsgSaturday>
+			<MsgSunday>0</MsgSunday>
+			<MsetRunTime>1</MsetRunTime>
+			<MsetStartTime>1900-01-01T00:00:00</MsetStartTime>
+			<MsetEndTime>1900-01-01T23:59:00</MsetEndTime>
+			<JobCronSchedule>0 0 1 ? * MON,TUE,WED,THU,FRI *</JobCronSchedule>
+			<RepeatForever>1</RepeatForever>
+			<StartNow>0</StartNow>
+		  </Trigger>
+		  <Trigger>
+			<TriggerName>GSK003-717E0DE9-925E-4B23-AA8B-67603D39A2AB</TriggerName>
+			<PrincipalCode>16</PrincipalCode>
+			<ERP>MKT</ERP>
+			<MessageCode>GSK003</MessageCode>
+			<MsgMonday>1</MsgMonday>
+			<MsgTuesday>1</MsgTuesday>
+			<MsgWednesday>1</MsgWednesday>
+			<MsgThursday>1</MsgThursday>
+			<MsgFriday>1</MsgFriday>
+			<MsgSaturday>0</MsgSaturday>
+			<MsgSunday>0</MsgSunday>
+			<MsetRunTime>1</MsetRunTime>
+			<MsetStartTime>1900-01-01T00:00:00</MsetStartTime>
+			<MsetEndTime>1900-01-01T23:59:00</MsetEndTime>
+			<JobCronSchedule>0 0 1 ? * MON,TUE,WED,THU,FRI *</JobCronSchedule>
+			<RepeatForever>1</RepeatForever>
+			<StartNow>0</StartNow>
+		  </Trigger>
+		  <Trigger>
+			<TriggerName>GSK005-07E2E7EE-8688-4290-952B-BF9CFB32F14D</TriggerName>
+			<PrincipalCode>16</PrincipalCode>
+			<ERP>MKT</ERP>
+			<MessageCode>GSK005</MessageCode>
+			<MsgMonday>0</MsgMonday>
+			<MsgTuesday>0</MsgTuesday>
+			<MsgWednesday>0</MsgWednesday>
+			<MsgThursday>1</MsgThursday>
+			<MsgFriday>0</MsgFriday>
+			<MsgSaturday>0</MsgSaturday>
+			<MsgSunday>0</MsgSunday>
+			<MsetRunTime>1</MsetRunTime>
+			<MsetStartTime>1900-01-01T00:00:00</MsetStartTime>
+			<MsetEndTime>1900-01-01T23:59:00</MsetEndTime>
+			<JobCronSchedule>0 0 1 ? * THU *</JobCronSchedule>
+			<RepeatForever>1</RepeatForever>
+			<StartNow>0</StartNow>
+		  </Trigger>
+		</Triggers>
+	  </Job>		  
+	  <Job name="IJKL">		
+		<Triggers />	  
+	  </Job>
+	  <Job name="MNOP">		
+		<Triggers />	  
+	  </Job>  
+	  <Job name="QRST">		
+		<Triggers />	  
+	  </Job>	  
+	  <Job name="UVWX">		
+		<Triggers />	  
+	  </Job>  
+	  <Job name="YZ09">	  		
+		<Triggers />	  
+	  </Job> 
+	</Jobs>	
+</GPP>
